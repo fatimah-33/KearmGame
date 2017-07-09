@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">
+        Kearm Game: A Traditional Game</string>
+    <string name="p1">Player 1</string>
+    <string name="p2">Player 2</string>
+    <string name="p3">Player 3</string>
+    <string name="p4">Player 4</string>
+    <string name="reset">Reset</string>
+    <string name="add5">+5 Points</string>
+    <string name="add10">+10 Points</string>
+    <string name="add50">+50 Points</string>
+    <string name="sub5">-5 Points</string>
+
+
+</resources>
