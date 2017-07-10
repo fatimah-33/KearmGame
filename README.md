@@ -6,6 +6,6 @@ Kirm is a traditional board game.
  Each circle object has a special color and values the Black on score 5 points, 
  the Yellow one score 10 points and the Red one score 50 points.
  if you fall down the bigger circular object you have to put circle object that worth five points back in the borad.
- The winner who collect more objects.
+ The winner who has the biggest amount of points
 
  the picture for the game click here https://goo.gl/images/ZUCQyN
