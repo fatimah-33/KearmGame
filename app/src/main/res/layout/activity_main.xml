@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
+
         <LinearLayout
             android:id="@+id/linearLayoutPlayerOne"
             style="@style/LinearLayoutForEachPalyerStyle">
@@ -45,6 +46,7 @@
                 android:background="@color/btnSub5"
                 android:text="@string/sub5" />
         </LinearLayout>
+
         <LinearLayout
             android:id="@+id/linearLayoutPlayerTwo"
             style="@style/LinearLayoutForEachPalyerStyle">
