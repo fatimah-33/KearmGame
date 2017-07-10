@@ -14,148 +14,88 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="@dimen/activity_vertical_margin">
+            android:id="@+id/linearLayoutPlayerOne"
+            style="@style/LinearLayoutForEachPalyerStyle"
+            >
 
             <TextView
-                android:id="@+id/p1"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/player_one_textView"
                 android:text="@string/p1"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                style="@style/TextViewStyle"
+                />
 
             <TextView
-                android:id="@+id/s1"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/score_for_player_one"
                 android:text="0"
-                android:textSize="20sp" />
+                android:textColor="@color/gray"
+                style="@style/TextViewStyle"/>
 
             <Button
-                android:id="@+id/plus5"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/five_points_player_one"
                 android:background="@color/btn5"
-                android:onClick="plusFivePoints"
                 android:text="@string/add5"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle"/>
 
             <Button
-                android:id="@+id/plus10"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/ten_points_player_one"
                 android:background="@color/btn10"
-                android:onClick="plusTenPoints"
                 android:text="@string/add10"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/plus50"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/fifty_points_player_one"
                 android:background="@color/btn50"
-                android:onClick="plusFivetyPoints"
                 android:text="@string/add50"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/sub5"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/sub_five_points_player_one"
                 android:background="@color/btnSub5"
-                android:onClick="plusFivetyPoints2"
                 android:text="@string/sub5"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="@dimen/activity_vertical_margin">
+            android:id="@+id/linearLayoutPlayerTwo"
+            style="@style/LinearLayoutForEachPalyerStyle">
 
             <TextView
-                android:id="@+id/p2"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/palyer_two_textView"
                 android:text="@string/p2"
-                android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                style="@style/TextViewStyle" />
 
             <TextView
-                android:id="@+id/s2"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/score_for_player_two"
                 android:text="0"
-                android:textSize="20sp"
-
+                android:textColor="@color/gray"
+                style="@style/TextViewStyle"
                 />
 
             <Button
-                android:id="@+id/plus5_2"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/five_points_player_two"
                 android:background="@color/btn5"
-                android:onClick="plusFivePoints2"
                 android:text="@string/add5"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/plus10_2"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/ten_points_player_two"
                 android:background="@color/btn10"
-                android:onClick="plusTenPoints2"
                 android:text="@string/add10"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/plus50_2"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/fifty_points_player_two"
                 android:background="@color/btn50"
-                android:onClick="plusFivetyPoints2"
                 android:text="@string/add50"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/sub5_2"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/sub_five_points_player_two"
                 android:background="@color/btnSub5"
-                android:onClick="plusFivetyPoints2"
                 android:text="@string/sub5"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -166,146 +106,88 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="@dimen/activity_vertical_margin">
+            android:id="@+id/linearLayoutPlayerThree"
+            style="@style/LinearLayoutForEachPalyerStyle">
 
             <TextView
-                android:id="@+id/p3"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/player_three_textView"
                 android:text="@string/p3"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                style="@style/TextViewStyle"/>
 
             <TextView
-                android:id="@+id/s3"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/score_for_player_three"
                 android:text="0"
-                android:textSize="20sp" />
+                android:textColor="@color/gray"
+                style="@style/TextViewStyle"
+
+                 />
 
             <Button
-                android:id="@+id/plus5_3"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/five_points_player_three"
                 android:background="@color/btn5"
-                android:onClick="plusFivePoints3"
                 android:text="@string/add5"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/plus10_3"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/ten_points_player_three"
                 android:background="@color/btn10"
-                android:onClick="plusTenPoints3"
                 android:text="@string/add10"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/plus50_3"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/fifty_points_player_three"
                 android:background="@color/btn50"
-                android:onClick="plusFivetyPoints3"
                 android:text="@string/add50"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/sub5_3"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/sub_five_points_player_three"
                 android:background="@color/btnSub5"
-                android:onClick="plusFivetyPoints3"
                 android:text="@string/sub5"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="@dimen/activity_vertical_margin">
+            android:id="@+id/linearLayoutPlayerFour"
+            style="@style/LinearLayoutForEachPalyerStyle">
 
             <TextView
-                android:id="@+id/p4"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/player_four_textView"
                 android:text="@string/p4"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                style="@style/TextViewStyle" />
 
             <TextView
-                android:id="@+id/s4"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/score_for_player_four"
                 android:text="0"
-                android:textSize="20sp" />
+                android:textColor="@color/gray"
+                style="@style/TextViewStyle" />
 
             <Button
-                android:id="@+id/plus5_4"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/five_points_player_four"
                 android:background="@color/btn5"
-                android:onClick="plusFivePoints4"
                 android:text="@string/add5"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/plus10_4"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/ten_points_player_four"
                 android:background="@color/btn10"
-                android:onClick="plusTenPoints4"
                 android:text="@string/add10"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/plus50_4"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/fifty_points_player_four"
                 android:background="@color/btn50"
-                android:onClick="plusFivetyPoints4"
                 android:text="@string/add50"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/sub5_4"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1"
+                android:id="@+id/sub_five_points_player_four"
                 android:background="@color/btnSub5"
-                android:onClick="plusFivetyPoints4"
                 android:text="@string/sub5"
-                android:textColor="@color/white"
-                android:textStyle="bold" />
+                style="@style/ButtonStyle" />
         </LinearLayout>
     </LinearLayout>
 
@@ -315,11 +197,12 @@
         android:layout_weight="11">
 
         <Button
-            android:id="@+id/reset"
+            android:id="@+id/reset_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/colorPrimary"
             android:text="@string/reset"
+            android:onClick="resetButton"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
