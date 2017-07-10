@@ -1,11 +1,9 @@
 package app.qadheeb.fatimah.kearmgame;
-
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     TextView textPlayerOne;
     TextView textPlayerTwo;
@@ -72,10 +70,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fifty_points_player_four.setOnClickListener(this);
         sub_five_points_player_four.setOnClickListener(this);
     }
-
     @Override
     public void onClick(View v) {
-
         switch (v.getId()) {
             case R.id.five_points_player_one:
                 scorePlayerOne += 5;
@@ -143,28 +139,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
-
     //display score for player one
     public void displayscorePlayerOne(int score) {
         textPlayerOne.setText(String.valueOf(score));
     }
-
     //display score for player two
     public void displayscorePlayerTwo(int score) {
         textPlayerTwo.setText(String.valueOf(score));
     }
-
     //display score for player three
     public void displayscorePlayerThree(int score) {
         textPlayerThree.setText(String.valueOf(score));
     }
-
     //display score for player four
     public void displayscorePlayerFour(int score) {
 
         textPlayerFour.setText(String.valueOf(score));
     }
-
     //reset button for all players
     public void resetButton(View v) {
         scorePlayerOne = 0;

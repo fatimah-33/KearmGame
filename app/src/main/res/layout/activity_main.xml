@@ -6,203 +6,166 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="app.qadheeb.fatimah.kearmgame.MainActivity">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
-
         <LinearLayout
             android:id="@+id/linearLayoutPlayerOne"
-            style="@style/LinearLayoutForEachPalyerStyle"
-            >
-
+            style="@style/LinearLayoutForEachPalyerStyle">
             <TextView
                 android:id="@+id/player_one_textView"
-                android:text="@string/p1"
-                android:textColor="@color/black"
                 style="@style/TextViewStyle"
-                />
-
+                android:text="@string/p1"
+                android:textColor="@color/black" />
             <TextView
                 android:id="@+id/score_for_player_one"
+                style="@style/TextViewStyle"
                 android:text="0"
-                android:textColor="@color/gray"
-                style="@style/TextViewStyle"/>
-
+                android:textColor="@color/gray" />
             <Button
                 android:id="@+id/five_points_player_one"
+                style="@style/ButtonStyle"
                 android:background="@color/btn5"
-                android:text="@string/add5"
-                style="@style/ButtonStyle"/>
-
+                android:text="@string/add5" />
             <Button
                 android:id="@+id/ten_points_player_one"
+                style="@style/ButtonStyle"
                 android:background="@color/btn10"
-                android:text="@string/add10"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add10" />
             <Button
                 android:id="@+id/fifty_points_player_one"
+                style="@style/ButtonStyle"
                 android:background="@color/btn50"
-                android:text="@string/add50"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add50" />
             <Button
                 android:id="@+id/sub_five_points_player_one"
+                style="@style/ButtonStyle"
                 android:background="@color/btnSub5"
-                android:text="@string/sub5"
-                style="@style/ButtonStyle" />
+                android:text="@string/sub5" />
         </LinearLayout>
-
         <LinearLayout
             android:id="@+id/linearLayoutPlayerTwo"
             style="@style/LinearLayoutForEachPalyerStyle">
-
             <TextView
                 android:id="@+id/palyer_two_textView"
+                style="@style/TextViewStyle"
                 android:text="@string/p2"
-                android:textColor="@color/black"
-                style="@style/TextViewStyle" />
-
+                android:textColor="@color/black" />
             <TextView
                 android:id="@+id/score_for_player_two"
-                android:text="0"
-                android:textColor="@color/gray"
                 style="@style/TextViewStyle"
-                />
-
+                android:text="0"
+                android:textColor="@color/gray" />
             <Button
                 android:id="@+id/five_points_player_two"
+                style="@style/ButtonStyle"
                 android:background="@color/btn5"
-                android:text="@string/add5"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add5" />
             <Button
                 android:id="@+id/ten_points_player_two"
+                style="@style/ButtonStyle"
                 android:background="@color/btn10"
-                android:text="@string/add10"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add10" />
             <Button
                 android:id="@+id/fifty_points_player_two"
+                style="@style/ButtonStyle"
                 android:background="@color/btn50"
-                android:text="@string/add50"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add50" />
             <Button
                 android:id="@+id/sub_five_points_player_two"
+                style="@style/ButtonStyle"
                 android:background="@color/btnSub5"
-                android:text="@string/sub5"
-                style="@style/ButtonStyle"/>
+                android:text="@string/sub5" />
         </LinearLayout>
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal">
-
         <LinearLayout
             android:id="@+id/linearLayoutPlayerThree"
             style="@style/LinearLayoutForEachPalyerStyle">
-
             <TextView
                 android:id="@+id/player_three_textView"
+                style="@style/TextViewStyle"
                 android:text="@string/p3"
-                android:textColor="@color/black"
-                style="@style/TextViewStyle"/>
-
+                android:textColor="@color/black" />
             <TextView
                 android:id="@+id/score_for_player_three"
+                style="@style/TextViewStyle"
                 android:text="0"
                 android:textColor="@color/gray"
-                style="@style/TextViewStyle"
-
-                 />
-
+                />
             <Button
                 android:id="@+id/five_points_player_three"
+                style="@style/ButtonStyle"
                 android:background="@color/btn5"
-                android:text="@string/add5"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add5" />
             <Button
                 android:id="@+id/ten_points_player_three"
+                style="@style/ButtonStyle"
                 android:background="@color/btn10"
-                android:text="@string/add10"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add10" />
             <Button
                 android:id="@+id/fifty_points_player_three"
+                style="@style/ButtonStyle"
                 android:background="@color/btn50"
-                android:text="@string/add50"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add50" />
             <Button
                 android:id="@+id/sub_five_points_player_three"
+                style="@style/ButtonStyle"
                 android:background="@color/btnSub5"
-                android:text="@string/sub5"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/sub5" />
         </LinearLayout>
-
         <LinearLayout
             android:id="@+id/linearLayoutPlayerFour"
             style="@style/LinearLayoutForEachPalyerStyle">
-
             <TextView
                 android:id="@+id/player_four_textView"
+                style="@style/TextViewStyle"
                 android:text="@string/p4"
-                android:textColor="@color/black"
-                style="@style/TextViewStyle" />
-
+                android:textColor="@color/black" />
             <TextView
                 android:id="@+id/score_for_player_four"
+                style="@style/TextViewStyle"
                 android:text="0"
-                android:textColor="@color/gray"
-                style="@style/TextViewStyle" />
-
+                android:textColor="@color/gray" />
             <Button
                 android:id="@+id/five_points_player_four"
+                style="@style/ButtonStyle"
                 android:background="@color/btn5"
-                android:text="@string/add5"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add5" />
             <Button
                 android:id="@+id/ten_points_player_four"
+                style="@style/ButtonStyle"
                 android:background="@color/btn10"
-                android:text="@string/add10"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add10" />
             <Button
                 android:id="@+id/fifty_points_player_four"
+                style="@style/ButtonStyle"
                 android:background="@color/btn50"
-                android:text="@string/add50"
-                style="@style/ButtonStyle" />
-
+                android:text="@string/add50" />
             <Button
                 android:id="@+id/sub_five_points_player_four"
+                style="@style/ButtonStyle"
                 android:background="@color/btnSub5"
-                android:text="@string/sub5"
-                style="@style/ButtonStyle" />
+                android:text="@string/sub5" />
         </LinearLayout>
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="11">
-
         <Button
             android:id="@+id/reset_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/colorPrimary"
-            android:text="@string/reset"
             android:onClick="resetButton"
+            android:text="@string/reset"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
